@@ -18509,6 +18509,94 @@
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "interceptConnection",
+            "printedName": "interceptConnection(request:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URLRequest",
+                "printedName": "Foundation.URLRequest",
+                "usr": "s:10Foundation10URLRequestV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLRequest",
+                "printedName": "Foundation.URLRequest",
+                "usr": "s:10Foundation10URLRequestV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14AWSPluginsCore20WebSocketInterceptorP19interceptConnection7request10Foundation10URLRequestVAH_tYaF",
+            "mangledName": "$s14AWSPluginsCore20WebSocketInterceptorP19interceptConnection7request10Foundation10URLRequestVAH_tYaF",
+            "moduleName": "AWSPluginsCore",
+            "genericSig": "<Self where Self : AWSPluginsCore.WebSocketInterceptor>",
+            "protocolReq": true,
+            "spi_group_names": [
+              "WebSocket"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "interceptConnection",
+            "printedName": "interceptConnection(url:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14AWSPluginsCore20WebSocketInterceptorPAAE19interceptConnection3url10Foundation3URLVAH_tYaF",
+            "mangledName": "$s14AWSPluginsCore20WebSocketInterceptorPAAE19interceptConnection3url10Foundation3URLVAH_tYaF",
+            "moduleName": "AWSPluginsCore",
+            "genericSig": "<Self where Self : AWSPluginsCore.WebSocketInterceptor>",
+            "isFromExtension": true,
+            "spi_group_names": [
+              "WebSocket"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "interceptConnection",
+            "printedName": "interceptConnection(request:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URLRequest",
+                "printedName": "Foundation.URLRequest",
+                "usr": "s:10Foundation10URLRequestV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLRequest",
+                "printedName": "Foundation.URLRequest",
+                "usr": "s:10Foundation10URLRequestV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14AWSPluginsCore20WebSocketInterceptorPAAE19interceptConnection7request10Foundation10URLRequestVAH_tYaF",
+            "mangledName": "$s14AWSPluginsCore20WebSocketInterceptorPAAE19interceptConnection7request10Foundation10URLRequestVAH_tYaF",
+            "moduleName": "AWSPluginsCore",
+            "genericSig": "<Self where Self : AWSPluginsCore.WebSocketInterceptor>",
+            "isFromExtension": true,
+            "spi_group_names": [
+              "WebSocket"
+            ],
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Protocol",
@@ -24463,7 +24551,7 @@
       "-module",
       "AWSPluginsCore",
       "-o",
-      "\/var\/folders\/k7\/4hy4p20s2rv4clw77d3qcl380000gr\/T\/tmp.nF2YaRsn2M\/AWSPluginsCore.json",
+      "\/var\/folders\/q5\/6nls1_g145s2fl1lbvx2zby40000gn\/T\/tmp.jmwYJu6cfU\/AWSPluginsCore.json",
       "-I",
       ".build\/debug",
       "-sdk-version",
